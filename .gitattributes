@@ -1,0 +1,12 @@
+# See https://github.com/github/linguist
+*.sh text eol=lf
+
+*.map linguist-generated
+*.css linguist-detectable
+docs/** linguist-vendored
+*.woff binary
+*.svg text
+
+docs/*.html linguist-vendored
+*.bat text eol=crlf
+# eof 4ad7a8bd
